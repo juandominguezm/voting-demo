@@ -9,8 +9,8 @@ import logging
 import signal
 import sys
 
-optionA = "RUN"
-optionB = "WALK"
+optionA = "linux"
+optionB = "windows"
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
